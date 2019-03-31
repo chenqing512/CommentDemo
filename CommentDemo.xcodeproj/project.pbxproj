@@ -13,6 +13,8 @@
 		1605682C2250A92F00CE4FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1605682B2250A92F00CE4FC3 /* Assets.xcassets */; };
 		1605682F2250A92F00CE4FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1605682D2250A92F00CE4FC3 /* LaunchScreen.storyboard */; };
 		160568322250A92F00CE4FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 160568312250A92F00CE4FC3 /* main.m */; };
+		1605683A2250A95400CE4FC3 /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 160568392250A95400CE4FC3 /* BulletView.m */; };
+		1605683D2250A96600CE4FC3 /* BulletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605683C2250A96600CE4FC3 /* BulletManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1605682E2250A92F00CE4FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		160568302250A92F00CE4FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		160568312250A92F00CE4FC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		160568382250A95400CE4FC3 /* BulletView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulletView.h; sourceTree = "<group>"; };
+		160568392250A95400CE4FC3 /* BulletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
+		1605683B2250A96600CE4FC3 /* BulletManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulletManager.h; sourceTree = "<group>"; };
+		1605683C2250A96600CE4FC3 /* BulletManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				160568232250A92F00CE4FC3 /* AppDelegate.m */,
 				160568252250A92F00CE4FC3 /* ViewController.h */,
 				160568262250A92F00CE4FC3 /* ViewController.m */,
+				160568382250A95400CE4FC3 /* BulletView.h */,
+				160568392250A95400CE4FC3 /* BulletView.m */,
+				1605683B2250A96600CE4FC3 /* BulletManager.h */,
+				1605683C2250A96600CE4FC3 /* BulletManager.m */,
 				160568282250A92F00CE4FC3 /* Main.storyboard */,
 				1605682B2250A92F00CE4FC3 /* Assets.xcassets */,
 				1605682D2250A92F00CE4FC3 /* LaunchScreen.storyboard */,
@@ -144,7 +154,9 @@
 			files = (
 				160568272250A92F00CE4FC3 /* ViewController.m in Sources */,
 				160568322250A92F00CE4FC3 /* main.m in Sources */,
+				1605683A2250A95400CE4FC3 /* BulletView.m in Sources */,
 				160568242250A92F00CE4FC3 /* AppDelegate.m in Sources */,
+				1605683D2250A96600CE4FC3 /* BulletManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
